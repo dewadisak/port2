@@ -1,0 +1,35 @@
+.container {
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
+.bg {
+  background-image: url("../images/content3.jpg");
+  background-size: cover;
+  opacity: 96%;
+}
+
+.flex-nav {
+  display: flex;
+  height: 80px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.flex-item {
+}
+
+.logo p {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+ 
+ 
+ 
+}
+.menu a {
+  color: rgb(255, 255, 255);
+  margin-left: 80px;
+  text-decoration: none;
+}

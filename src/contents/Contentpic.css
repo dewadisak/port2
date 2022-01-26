@@ -1,0 +1,40 @@
+.flex-pic{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.pic-item{
+    width: 1152px;
+    
+  
+}
+
+.pic-content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    border-bottom: 2px solid rgb(160, 153, 153);
+   
+
+}
+.pic-content img{
+ 
+    width: 100%;
+   
+}
+.pic-content h5 {
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: large;
+    margin-top: 40px;
+}
+.pic-content p {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 10px;
+    color: rgb(128, 123, 123);
+    
+    
+}
