@@ -1,0 +1,70 @@
+.flex-contact{
+
+    display: flex;
+    justify-content: center;
+
+    
+
+    
+
+}
+.contact-item{
+    margin-top: -400px;
+    margin-left: 80px;
+    z-index: 1;
+    
+
+}
+.contact-content{
+animation-name: content-home-ani;
+animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+-webkit-animation: 1500ms ease 300ms normal forwards 1 content-home-ani;
+opacity: 0;
+
+}
+
+@keyframes content-home-ani {
+0% {
+  opacity: 0;
+  transform: translatey(30px);
+}
+100% {
+  opacity: 1;
+  transform: translatey(0px);
+}
+}
+
+
+.github{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 9px;
+    border-radius: 9px;
+    color:black;
+    background-color: white;
+   
+
+
+}
+.github img{
+    width: 100%;
+    margin-right: 10px;
+}
+
+.facebook{
+
+    display: flex;
+    margin-top: 2px;
+    text-decoration: none;
+    font-weight: bold;
+    
+    padding: 16px;
+    border-radius: 9px;
+    color: white;
+    background-color: #3b5998;
+
+
+}

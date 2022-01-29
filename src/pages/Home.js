@@ -7,10 +7,28 @@ import '../contents/Contentpic.css'
 import Contentdata from '../contents/Contentdata'
 import '../contents/Contentdata.css'
 
+
 class Home extends Component {
   render() {
     return (
       <div className="container">
+        <div className="bg-home">
+        <div className="flex-home">
+            <div className="home-item">
+              <div className="home-content ">
+                <h5>Portfolio</h5>
+                <br />
+                <p>
+                  Officia enim do irure Lorem nulla incididunt Officia cillum
+                  sunt aliquip esse .
+                </p>
+                <br />
+                <a href="/">
+                  <button className="btn41-43 btn-42">Get Start</button>
+                </a>
+              </div>
+            </div>
+          </div>
         <div className="flex-home2">
           <div className="flex-item2">
             <div className="flex-content2">
@@ -29,7 +47,7 @@ class Home extends Component {
                 <img src={idea}/>
               <h5>Fugiat dolor</h5>
               <p>
-              Non eu ex cillum ullamco qui laborum non .
+              Non eu ex cillum ullamco qui laborum non Nulla id est.
               </p>
               </div>
             </div>
@@ -58,8 +76,10 @@ class Home extends Component {
             </div>
           </div>
         </div>
+        
         <Contentpic/>
         <Contentdata/>
+        </div>
       </div>
     );
   }

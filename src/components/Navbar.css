@@ -4,9 +4,10 @@
 }
 
 .bg {
-  background-image: url("../images/content3.jpg");
+  background-image: url("../images/bg.jpg");
   background-size: cover;
   opacity: 96%;
+  height: 100vh;
 }
 
 .flex-nav {
@@ -32,4 +33,7 @@
   color: rgb(255, 255, 255);
   margin-left: 80px;
   text-decoration: none;
+ 
+  
 }
+

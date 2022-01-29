@@ -22,7 +22,7 @@ class Footer extends Component {
         <div className="container">
         {/* // Important! Always set the container height explicitly */}
         <div className="footer">     <GoogleMapReact
-            bootstrapURLKeys={{ key:''}}
+            bootstrapURLKeys={{ key:''}} //no keys
             defaultCenter={this.props.center}
             defaultZoom={this.props.zoom}
             yesIWantToUseGoogleMapApiInternals={true}
