@@ -19,7 +19,7 @@ class Navbar extends Component {
           <div className="flex-item">
             <div className="menu">
               <Link to="/" >Page</Link>
-              <Link to="/about" >RESTful API</Link>
+              <Link to="/about" >API</Link>
               <Link to="/work" >ThreeJS</Link>
               <Link to="/contact" >Contact</Link>
             </div>

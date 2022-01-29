@@ -29,9 +29,9 @@ class Table extends Component {
                         </td>
                         <td>{"$" + coin.current_price.toFixed(2)}</td>
                         {coin.price_change_percentage_24h < 0 ? (
-                          <td ><p className="red">{"$" + coin.price_change_percentage_24h.toFixed(2)}</p></td>
+                          <td ><p className="red">{ coin.price_change_percentage_24h.toFixed(2) +'%'}</p></td>
                         ) : (
-                          <td ><p className="green">{"$" + coin.price_change_percentage_24h.toFixed(2)}</p></td>
+                          <td ><p className="green">{coin.price_change_percentage_24h.toFixed(2) +'%'}</p></td>
                         )}
 
                         {coin.price_change_24h < 0 ? (
