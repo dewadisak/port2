@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
-   
+ 
    
     
 
@@ -17,6 +17,7 @@
 .data-content{
     
     padding: 20px;
+    margin-bottom: 100px;
 
 }
 

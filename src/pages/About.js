@@ -4,6 +4,9 @@ import Table from "../components/Table";
 import "../components/Table.css";
 import { Link } from "react-router-dom";
 import mac from "../images/mac.png"
+import LineChart from "../components/LineChart";
+import {Line} from "react-chartjs-2";
+import Chart from 'chart.js/auto';
 
 
 class About extends Component {
@@ -11,7 +14,25 @@ class About extends Component {
     super(props);
     this.state = {
       coins: [],
-    };
+      chartData:{
+        labels:['January',
+        'February',
+        'March',
+        'April',
+        'May',
+        'June']
+        , datasets: [{
+          label: 'My First Dataset',
+          data: [65, 59, 80, 81, 56, 55, 40],
+          fill: false,
+          borderColor: 'rgb(75, 192, 192)',
+          tension: 0.1
+        }]
+
+      },
+    
+      }
+    
     this.componentDidMount = this.componentDidMount.bind(this);
     // this.getapi = this.getapi.bind(this);
   }
@@ -29,10 +50,11 @@ class About extends Component {
         });
       });
     console.log(this.state.coins);
+    console.log(this.state.chartData);
   }
 
   render() {
-    const { coins } = this.state;
+    const { coins,chartData } = this.state;
 
     return (
       <div className="container">
@@ -81,6 +103,22 @@ class About extends Component {
       
        
         </div >
+
+
+ 
+{/*    
+            <Line
+            options={{}}
+            data={chartData}
+         
+         
+            /> */}
+
+
+       
+
+
+
       
       
         </div>
